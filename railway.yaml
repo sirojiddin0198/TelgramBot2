@@ -1,0 +1,5 @@
+services:
+  - name: telegrambot
+    runtime: docker
+    dockerfilePath: Dockerfile
+    autoDeploy: true

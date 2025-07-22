@@ -1,0 +1,62 @@
+# Ignore build output
+bin/
+obj/
+out/
+
+# Ignore Rider, VS Code, and Visual Studio folders
+.vscode/
+.idea/
+.vs/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Ignore logs and crash dumps
+*.log
+*.stackdump
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Ignore dotnet tool restore artifacts
+.dotnet_tool/
+
+# Ignore global.json SDK constraints
+global.json
+
+# Ignore ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore test results
+TestResults/
+*.coverage
+*.coveragexml
+*.testresults
+
+# Ignore secrets and tokens (you can add your token files here if needed)
+*.secrets.json
+secrets.json
+
+# Ignore telemetry and analytics
+*.tlog
+*.vspx
+
+# Optional: ignore dotenv env files if you use them
+.env
+.env.*
+
+# Ignore publish output
+publish/
